@@ -1,0 +1,46 @@
+/**
+ * sass/theme/buttons/button-mobile.scss
+ * @package scgolfpanel
+ * @author Scott Shealy
+ * @version 1.0.0 (2024.05.11)
+ * @copyright 2024 (2024.05.11)
+**/
+
+#{$button-mobile} {
+    // GLOBAL
+        width: 100.00%;
+        display: block;
+        margin: $button-margin-vertical auto !important;
+        border: $button-border-weight solid $button-mobile-text-color;
+        color: $button-mobile-text-color;
+
+    // MOBILE
+        @media #{$media-xs} {} //.COL-XS
+        @media #{$media-sm} {} //.COL-SM
+        @media #{$media-md} {} //.COL-MD
+        @media #{$device-mobile} {} //.MOBILE
+
+    // DESKTOP
+        @media #{$device-desktop} {} //.DESKTOP
+        @media #{$media-lg} {} //.COL-LG
+        @media #{$media-xl} {} //.COL-XL
+        @media #{$media-xxl} {} //.COL-XXL
+
+    .elementor-button-text {
+        // GLOBAL
+            color: $button-mobile-text-color;
+            
+        // MOBILE
+            @media #{$media-xs} {} //.COL-XS
+            @media #{$media-sm} {} //.COL-SM
+            @media #{$media-md} {} //.COL-MD
+            @media #{$device-mobile} {} //.MOBILE
+
+        // DESKTOP
+            @media #{$device-desktop} {} //.DESKTOP
+            @media #{$media-lg} {} //.COL-LG
+            @media #{$media-xl} {} //.COL-XL
+            @media #{$media-xxl} {} //.COL-XXL
+    } //.ELEMENTOR-BUTTON-TEXT
+
+} //.BUTTON-MOBILE

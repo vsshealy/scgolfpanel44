@@ -1,0 +1,54 @@
+/**
+ * sass/theme/buttons/button-alt.scss
+ * @package scgolfpanel
+ * @author Scott Shealy
+ * @version 1.0.0 (2024.05.11)
+ * @copyright 2024 (2024.05.11)
+**/
+
+#{$button-alt} {
+    // GLOBAL
+        background-color: $button-alt-color;
+        border: $button-border-weight solid $button-alt-text-color;
+        color: $button-alt-text-color;
+
+        &:hover {
+            background-color: $button-alt-hover-color;
+            border: $button-border-weight solid $button-alt-hover-text-color;
+            color: $button-alt-hover-text-color;
+
+            .elementor-button-text {
+                color: $button-alt-hover-text-color;
+            }
+        } //:HOVER
+        
+    // MOBILE
+        @media #{$media-xs} {} //.COL-XS
+        @media #{$media-sm} {} //.COL-SM
+        @media #{$media-md} {} //.COL-MD
+        @media #{$device-mobile} {} //.MOBILE
+
+    // DESKTOP
+        @media #{$device-desktop} {} //.DESKTOP
+        @media #{$media-lg} {} //.COL-LG
+        @media #{$media-xl} {} //.COL-XL
+        @media #{$media-xxl} {} //.COL-XXL
+
+    .elementor-button-text {
+        // GLOBAL
+            color: $button-alt-text-color;
+            
+        // MOBILE
+            @media #{$media-xs} {} //.COL-XS
+            @media #{$media-sm} {} //.COL-SM
+            @media #{$media-md} {} //.COL-MD
+            @media #{$device-mobile} {} //.MOBILE
+
+        // DESKTOP
+            @media #{$device-desktop} {} //.DESKTOP
+            @media #{$media-lg} {} //.COL-LG
+            @media #{$media-xl} {} //.COL-XL
+            @media #{$media-xxl} {} //.COL-XXL
+    } //.ELEMENTOR-BUTTON-TEXT
+
+} //.BUTTON-ALT

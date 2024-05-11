@@ -1,0 +1,13 @@
+/**
+ * sass/theme/buttons/lists.scss
+ * @package scgolfpanel
+ * @author Scott Shealy
+ * @version 1.0.0 (2024.05.11)
+ * @copyright 2024 (2024.05.11)
+**/
+
+$button-solid: ".button a, .button-solid a, .button-form a, .button-elementor a, .btn-slider a";
+$button-alt: ".button-alt a";
+$button-ghost: ".button-ghost a";
+$button-mobile: ".button-mobile a";
+$button-all: "#{$button-solid}, #{$button-alt}, #{$button-ghost}, #{$button-mobile}";

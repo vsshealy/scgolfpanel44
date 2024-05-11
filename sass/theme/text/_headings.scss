@@ -1,0 +1,167 @@
+/**
+ * sass/objects/text/headings.scss
+ * @package scgolfpanel
+ * @author Scott Shealy
+ * @version 1.0.0 (2024.05.11)
+ * @copyright 2024 (2024.05.11)
+**/
+
+#{$text-headings-all} {
+    // GLOBAL
+        line-height: $heading-text-height;
+        letter-spacing: $heading-text-height;
+        text-transform: $heading-text-style;
+        margin: $heading-text-margin $margin-none ($heading-text-margin * 0.50) $margin-none;
+
+    // MOBILE
+        @media #{$media-xs} {} //.COL-XS
+        @media #{$media-sm} {} //.COL-SM
+        @media #{$media-md} {} //.COL-MD
+        @media #{$device-mobile} {} //.MOBILE
+
+        // DESKTOP
+        @media #{$device-desktop} {} //.DESKTOP
+        @media #{$media-lg} {} //.COL-LG
+        @media #{$media-xl} {} //.COL-XL
+        @media #{$media-xxl} {} //.COL-XXL
+} //TEXT-HEADINGS-ALL
+
+#{$text-headings-primary} {
+    // GLOBAL
+        font-family: $heading-primary-text;
+        font-weight: 300;
+        color: $heading-primary-text-color;
+
+    // MOBILE
+        @media #{$media-xs} {} //.COL-XS
+        @media #{$media-sm} {} //.COL-SM
+        @media #{$media-md} {} //.COL-MD
+        @media #{$device-mobile} {} //.MOBILE
+
+        // DESKTOP
+        @media #{$device-desktop} {} //.DESKTOP
+        @media #{$media-lg} {} //.COL-LG
+        @media #{$media-xl} {} //.COL-XL
+        @media #{$media-xxl} {} //.COL-XXL
+} //TEXT-HEADINGS-PRIMARY
+
+#{$text-headings-secondary} {
+    // GLOBAL
+        font-family: $heading-secondary-text;
+        font-weight: 700;
+        color: $heading-secondary-text-color;
+
+    // MOBILE
+        @media #{$media-xs} {} //.COL-XS
+        @media #{$media-sm} {} //.COL-SM
+        @media #{$media-md} {} //.COL-MD
+        @media #{$device-mobile} {} //.MOBILE
+
+        // DESKTOP
+        @media #{$device-desktop} {} //.DESKTOP
+        @media #{$media-lg} {} //.COL-LG
+        @media #{$media-xl} {} //.COL-XL
+        @media #{$media-xxl} {} //.COL-XXL
+} //TEXT-HEADINGS-SECONDARY
+
+#{$text-headings-h1} {
+    // GLOBAL
+        font-size: $heading-text-size-h1;
+
+    // MOBILE
+        @media #{$media-xs} {} //.COL-XS
+        @media #{$media-sm} {} //.COL-SM
+        @media #{$media-md} {} //.COL-MD
+        @media #{$device-mobile} {} //.MOBILE
+
+        // DESKTOP
+        @media #{$device-desktop} {} //.DESKTOP
+        @media #{$media-lg} {} //.COL-LG
+        @media #{$media-xl} {} //.COL-XL
+        @media #{$media-xxl} {} //.COL-XXL
+} //TEXT-HEADINGS-H1
+
+#{$text-headings-h2} {
+    // GLOBAL
+        font-size: $heading-text-size-h2;
+
+    // MOBILE
+        @media #{$media-xs} {} //.COL-XS
+        @media #{$media-sm} {} //.COL-SM
+        @media #{$media-md} {} //.COL-MD
+        @media #{$device-mobile} {} //.MOBILE
+
+        // DESKTOP
+        @media #{$device-desktop} {} //.DESKTOP
+        @media #{$media-lg} {} //.COL-LG
+        @media #{$media-xl} {} //.COL-XL
+        @media #{$media-xxl} {} //.COL-XXL
+} //TEXT-HEADINGS-H2
+
+#{$text-headings-h3} {
+    // GLOBAL
+        font-size: $heading-text-size-h3;
+
+    // MOBILE
+        @media #{$media-xs} {} //.COL-XS
+        @media #{$media-sm} {} //.COL-SM
+        @media #{$media-md} {} //.COL-MD
+        @media #{$device-mobile} {} //.MOBILE
+
+        // DESKTOP
+        @media #{$device-desktop} {} //.DESKTOP
+        @media #{$media-lg} {} //.COL-LG
+        @media #{$media-xl} {} //.COL-XL
+        @media #{$media-xxl} {} //.COL-XXL
+} //TEXT-HEADINGS-H3
+
+#{$text-headings-h4} {
+    // GLOBAL
+        font-size: $heading-text-size-h4;
+
+    // MOBILE
+        @media #{$media-xs} {} //.COL-XS
+        @media #{$media-sm} {} //.COL-SM
+        @media #{$media-md} {} //.COL-MD
+        @media #{$device-mobile} {} //.MOBILE
+
+        // DESKTOP
+        @media #{$device-desktop} {} //.DESKTOP
+        @media #{$media-lg} {} //.COL-LG
+        @media #{$media-xl} {} //.COL-XL
+        @media #{$media-xxl} {} //.COL-XXL
+} //TEXT-HEADINGS-H4
+
+#{$text-headings-h5} {
+    // GLOBAL
+        font-size: $heading-text-size-h5;
+
+    // MOBILE
+        @media #{$media-xs} {} //.COL-XS
+        @media #{$media-sm} {} //.COL-SM
+        @media #{$media-md} {} //.COL-MD
+        @media #{$device-mobile} {} //.MOBILE
+
+        // DESKTOP
+        @media #{$device-desktop} {} //.DESKTOP
+        @media #{$media-lg} {} //.COL-LG
+        @media #{$media-xl} {} //.COL-XL
+        @media #{$media-xxl} {} //.COL-XXL
+} //TEXT-HEADINGS-H5
+
+#{$text-headings-h6} {
+    // GLOBAL
+        font-size: $heading-text-size-h6;
+
+    // MOBILE
+        @media #{$media-xs} {} //.COL-XS
+        @media #{$media-sm} {} //.COL-SM
+        @media #{$media-md} {} //.COL-MD
+        @media #{$device-mobile} {} //.MOBILE
+
+        // DESKTOP
+        @media #{$device-desktop} {} //.DESKTOP
+        @media #{$media-lg} {} //.COL-LG
+        @media #{$media-xl} {} //.COL-XL
+        @media #{$media-xxl} {} //.COL-XXL
+} //TEXT-HEADINGS-H6

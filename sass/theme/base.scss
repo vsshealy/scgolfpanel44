@@ -1,0 +1,241 @@
+/**
+ * sass/theme/base.scss
+ * @package scgolfpanel
+ * @author Scott Shealy
+ * @version 1.0.0 (2024.05.11)
+ * @copyright 2024 (2024.05.11)
+**/
+
+// LINKS
+    $link-color: $color-scgolfpanel-green;
+    $link-hover-adjustment: 3.00;
+    $link-hover-adjustment-color: $color-adjustment-light;
+    $link-hover-color: $color-scgolfpanel-green-light-9;
+
+    // @IMPORT | LINKS
+        @import "objects/links";
+
+// SHADOWS
+    $shadow-main: 0.00rem 0.00rem 0.50rem rgba($color-grayscale-dark-9, 0.10);
+    $shadow-text: 0.00rem 0.00rem 0.50rem rgba($color-grayscale-dark-9, 0.90);
+
+    // @IMPORT | SHADOWS
+        @import "objects/shadows";
+
+// TEXT
+    // @IMPORT | VARIABLES
+        @import "text/variables";
+        @import "text/lists";
+
+    // FONT STACKS
+        $font-sans: Roboto, Helvetica, Arial, sans-serif;
+        $font-serif: Merriweather, Georgia, serif;
+
+    // FONT SIZES
+        $font-size-base: 1.00rem;
+        $font-size-xs: 14px;
+        $font-size-sm: 14px;
+        $font-size-md: 14px;
+        $font-size-lg: 14px;
+        $font-size-xl: 16px;
+        $font-size-xxl: 16px;
+
+    // COLORS
+        $text-color-normal: $color-grayscale-dark-6;
+        $text-color-alt: $color-scgolfpanel-brown-0;
+        $text-color-white: $color-grayscale-light-12;
+        $text-color-light: $color-grayscale-light-9;
+        $text-color-medium: $color-grayscale-0;
+        $text-color-dark: $color-grayscale-dark-9;
+        $text-color-black: $color-grayscale-dark-12;
+
+    // BODY
+        $body-text: $font-sans;
+        $body-text-size: $font-size-base;
+        $body-text-color: $text-color-normal;
+        $body-text-height: $line-height-normal;
+        $body-text-spacing: $letter-spacing-normal;
+        $body-text-margin: $margin-sm;
+
+    // HEADINGS
+        $heading-text: $font-serif;
+        $heading-text-color: $text-color-dark;
+        $heading-text-size-h1: 3.00rem;
+        $heading-text-size-h2: 2.50rem;
+        $heading-text-size-h3: 2.00rem;
+        $heading-text-size-h4: 1.50rem;
+        $heading-text-size-h5: 1.25rem;
+        $heading-text-size-h6: 1.00rem;
+        $heading-text-style: none;
+        $heading-text-height: $line-height-condensed;
+        $heading-text-spacing: $letter-spacing-normal;
+        $heading-text-margin: $margin-md;
+        $heading-primary-text: $heading-text;
+        $heading-primary-text-color: $heading-text-color;
+        $heading-secondary-text: $body-text;
+        $heading-secondary-text-color: $body-text-color;
+
+    // LINKS
+        $link-text-color: $link-color;
+        $link-hover-text-color: $link-hover-color;
+
+    // ICONS
+        $font-icons: normal normal normal $font-size-base FontAwesome;
+        $icon-margin: $margin-xs;
+
+    // SHADOWS
+        $text-shadow: $shadow-text;
+
+    // @IMPORT | TEXT
+        @import "text/body";
+        @import "text/headings";
+        @import "text/links";
+        @import "text/icons";
+        @import "text/shadows";
+        @import "text/styles";
+
+// BORDERS
+    $border-width: 0.20rem;
+    $border-radius: 0.00rem;
+    $border-outline-weight: 1px;
+    $border-color: $color-grayscale-light-12;
+    $border-color-alt: $color-scgolfpanel-brown-0;
+    $border-outline: $border-outline-weight solid $border-color;
+    $border-section: $border-width solid $border-color;
+
+    // @IMPORT | BORDERS
+        @import "objects/borders";
+
+// BUTTONS
+    $button-text: $body-text;
+    $button-text-size: $body-text-size;
+    $button-text-style: normal;
+    $button-font-weight: 400;
+    $button-color: $link-color;
+    $button-border-radius: 0.25rem;
+    $button-border-weight: $border-outline-weight;
+    $button-margin-vertical: $margin-sm;
+    $button-margin-horizontal: $margin-md;
+    $button-padding-vertical: $padding-xs;
+    $button-padding-horizontal: $padding-md;
+
+    // BUTTON-SOLID
+        $button-solid-color: $button-color;
+        $button-solid-text-color: $text-color-white;
+        $button-solid-hover-color: mix($link-hover-adjustment-color, $button-solid-color, $color-adjustment * $link-hover-adjustment);
+        $button-solid-hover-text-color: $text-color-white;
+
+    // BUTTON-ALT
+        $button-alt-color: $color-grayscale-light-12;
+        $button-alt-text-color: $button-color;
+        $button-alt-hover-color: $button-alt-text-color;
+        $button-alt-hover-text-color: $text-color-white;
+
+    // BUTTON-GHOST
+        $button-ghost-color: transparent;
+        $button-ghost-text-color: $button-color;
+        $button-ghost-hover-color: $button-ghost-text-color;
+        $button-ghost-hover-text-color: $text-color-white;
+
+    // BUTTON-MOBILE
+        $button-mobile-color: $button-solid-color;
+        $button-mobile-text-color: $button-solid-text-color;
+
+    // @IMPORT | BUTTONS
+        @import "buttons/lists";
+        @import "buttons/button-all";
+        @import "buttons/button-solid";
+        @import "buttons/button-alt";
+        @import "buttons/button-ghost";
+        @import "buttons/button-mobile";
+
+// BACKGROUNDS
+    // BACKGROUND-1
+        $background-1-color: $color-scgolfpanel-brown-0;
+        $background-1-text-color: $color-scgolfpanel-brown-light-12;
+
+    // BACKGROUND-2
+        $background-2-color: $color-scgolfpanel-beige-0;
+        $background-2-text-color: $color-scgolfpanel-beige-dark-6;
+
+    // BACKGROUND-3
+        $background-3-color: $color-scgolfpanel-gray-0;
+        $background-3-text-color: $color-scgolfpanel-gray-light-12;
+
+    // BACKGROUND-4
+        $background-4-color: $color-scgolfpanel-green-0;
+        $background-4-text-color: $color-scgolfpanel-green-light-12;
+
+    // BACKGROUND-5
+        $background-5-color: $color-scgolfpanel-blue-0;
+        $background-5-text-color: $color-scgolfpanel-blue-light-12;
+
+    // BACKGROUND-6
+        $background-6-color: $color-grayscale-light-12;
+        $background-6-text-color: $text-color-alt;
+
+    // BACKGROUND-7
+        $background-7-color: $color-grayscale-light-12;
+        $background-7-text-color: $text-color-dark;
+
+    // BACKGROUND-8
+        $background-8-color: $color-grayscale-dark-12;
+        $background-8-text-color: $color-grayscale-light-12;
+
+    // @IMPORT | BACKGROUNDS
+        @import "objects/backgrounds";
+
+// GRADIENTS
+    // GRADIENT-1
+        $gradient-1: linear-gradient(0deg, rgba($color-grayscale-dark-9, 0.90%) 0.00%, rgba($color-grayscale-dark-9, 0.60) 50.00%, rgba($color-grayscale-dark-9, 0.50) 100.00%);
+        $gradient-1-text-color: $text-color-white;
+
+    // GRADIENT-2
+        $gradient-2: linear-gradient(0deg, rgba($color-scgolfpanel-green-dark-10, 0.95%) 0.00%, rgba($color-scgolfpanel-green-dark-2, 0.85) 50.00%, rgba($color-scgolfpanel-green-0, 0.60) 100.00%);
+        $gradient-2-text-color: $text-color-white;
+
+    // GRADIENT-3
+        $gradient-3: linear-gradient(0deg, rgba($color-grayscale-dark-9, 0.95%) 0.00%, rgba($color-grayscale-dark-9, 0.85) 50.00%, rgba($color-grayscale-dark-9, 0.50) 100.00%);
+        $gradient-3-text-color: $text-color-white;
+
+    // GRADIENT-4
+        $gradient-4: linear-gradient(0deg, rgba($color-grayscale-dark-9, 0.95%) 0.00%, rgba($color-grayscale-dark-9, 0.85) 50.00%, rgba($color-grayscale-dark-9, 0.50) 100.00%);
+        $gradient-4-text-color: $text-color-white;
+
+    // GRADIENT-5
+        $gradient-5: linear-gradient(0deg, rgba($color-grayscale-dark-9, 0.95%) 0.00%, rgba($color-grayscale-dark-9, 0.85) 50.00%, rgba($color-grayscale-dark-9, 0.50) 100.00%);
+        $gradient-5-text-color: $text-color-white;
+
+    // GRADIENT-6
+        $gradient-6: linear-gradient(0deg, rgba($color-grayscale-dark-9, 0.95%) 0.00%, rgba($color-grayscale-dark-9, 0.85) 50.00%, rgba($color-grayscale-dark-9, 0.50) 100.00%);
+        $gradient-6-text-color: $text-color-white;
+
+    // GRADIENT-7
+        $gradient-7: linear-gradient(0deg, rgba($color-grayscale-dark-9, 0.00%) 0.00%, rgba($color-grayscale-dark-9, 0.85) 50.00%, rgba($color-grayscale-dark-9, 0.50) 100.00%);
+        $gradient-7-text-color: $text-color-white;
+
+    // GRADIENT-8
+        $gradient-8: linear-gradient(0deg, rgba($color-grayscale-dark-9, 0.95%) 0.00%, rgba($color-grayscale-dark-9, 0.85) 50.00%, rgba($color-grayscale-dark-9, 0.50) 100.00%);
+        $gradient-8-text-color: $text-color-white;
+
+    // @IMPORT | GRADIENTS
+        @import "objects/gradients";
+
+// TABLES
+    $table-header-background: $color-scgolfpanel-brown-0;
+    $table-subheader-background: $color-scgolfpanel-beige-0;
+    $table-row-odd-background: $color-grayscale-light-11;
+    $table-row-even-background: $color-grayscale-light-9;
+    $table-border: $table-header-background;
+    $table-cell-padding: $padding-xxs;
+
+    // @IMPORT | TABLES
+        @import "objects/tables";
+
+// IMAGES
+    // @IMPORT | IMAGES
+        @import "objects/images";
+
+// VIDEOS
+    // @IMPORT | VIDEOS
+        @import "objects/videos";

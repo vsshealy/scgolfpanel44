@@ -1,0 +1,59 @@
+/**
+ * sass/variables/media/templates.scss
+ * @package scgolfpanel
+ * @author Scott Shealy
+ * @version 1.0.0 (2024.05.10)
+ * @copyright 2024 (2024.05.10)
+**/
+
+// SCREENS
+// GLOBAL
+// MOBILE
+    @media #{$screen-xs} {} //.SCREEN-XS
+    @media #{$screen-sm} {} //.SCREEN-SM
+    @media #{$screen-md} {} //.SCREEN-MD
+    
+// DESKTOP
+    @media #{$screen-lg} {} //.SCREEN-LG
+    @media #{$screen-xl} {} //.SCREEN-XL
+    @media #{$screen-xxl} {} //.SCREEN-XXL
+
+// DEVICES
+// GLOBAL
+// MOBILE
+    @media #{$device-phone} {} //.PHONE
+    @media #{$device-tablet} {} //.TABLET
+    @media #{$device-mobile} {} //.MOBILE
+
+// DESKTOP
+    @media #{$device-desktop} {} //.DESKTOP
+    @media #{$device-desktop-sm} {} //.DESKTOP-SM
+    @media #{$device-desktop-md} {} //.DESKTOP-MD
+    @media #{$device-desktop-lg} {} //.DESKTOP-LG
+    @media #{$device-desktop-xl} {} //.DESKTOP-XL
+    @media #{$device-desktop-xxl} {} //.DESKTOP-XXL
+
+// CONTENT
+    @media #{$content-width-sm} {} //.CONTENT-WIDTH-SM
+    @media #{$content-width-lg} {} //.CONTENT-WIDTH-LG
+
+// MENUS
+// GLOBAL
+// MOBILE
+    @media #{$menu-mobile} {} //.MOBILE
+
+// DESKTOP
+    @media #{$menu-desktop} {} //.DESKTOP
+// ALL
+// GLOBAL
+// MOBILE
+    @media #{$media-xs} {} //.COL-XS
+    @media #{$media-sm} {} //.COL-SM
+    @media #{$media-md} {} //.COL-MD
+    @media #{$device-mobile} {} //.MOBILE
+
+// DESKTOP
+    @media #{$device-desktop} {} //.DESKTOP
+    @media #{$media-lg} {} //.COL-LG
+    @media #{$media-xl} {} //.COL-XL
+    @media #{$media-xxl} {} //.COL-XXL

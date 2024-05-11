@@ -1,0 +1,24 @@
+/**
+ * sass/variables/colors/base.scss
+ * @package scgolfpanel
+ * @author Scott Shealy
+ * @version 1.0.0 (2024.05.10)
+ * @copyright 2024 (2024.05.10)
+**/
+
+// SCGOLFPANEL BRAND COLLECTION
+    $color-scgolfpanel-green: #00672f;
+    $color-scgolfpanel-brown: #948056;
+    $color-scgolfpanel-beige: #ccc999;
+    $color-scgolfpanel-gray: #444544;
+    $color-scgolfpanel-blue: #0072bb;
+
+// ADJUSTMENT VARIABLES
+    $color-adjustment: calc(100.00% / 12);
+    $color-adjustment-light: #ffffff;
+    $color-adjustment-dark: #000000;
+
+// @IMPORT | PARTIALS
+    @import "grayscale";
+    @import "black";
+    @import "scgolfpanel";

@@ -1,0 +1,25 @@
+/**
+ * sass/variables/units/grids.scss
+ * @package scgolfpanel
+ * @author Scott Shealy
+ * @version 1.0.0 (2024.05.10)
+ * @copyright 2024 (2024.05.10)
+**/
+
+// VARIABLES
+    $grid-base: calc(100.00% / 12);
+
+// GRIDS
+    $grid-0: $grid-base * 0.00;
+    $grid-1: $grid-base * 1.00;
+    $grid-2: $grid-base * 2.00;
+    $grid-3: $grid-base * 3.00;
+    $grid-4: $grid-base * 4.00;
+    $grid-5: $grid-base * 5.00;
+    $grid-6: $grid-base * 6.00;
+    $grid-7: $grid-base * 7.00;
+    $grid-8: $grid-base * 8.00;
+    $grid-9: $grid-base * 9.00;
+    $grid-10: $grid-base * 10.00;
+    $grid-11: $grid-base * 11.00;
+    $grid-12: $grid-base * 12.00;

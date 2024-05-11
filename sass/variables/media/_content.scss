@@ -1,0 +1,13 @@
+/**
+ * sass/variables/media/content.scss
+ * @package scgolfpanel
+ * @author Scott Shealy
+ * @version 1.0.0 (2024.05.10)
+ * @copyright 2024 (2024.05.10)
+**/
+
+// CONTENT
+    $content-width-sm-px: $site-width-content - 1px;
+    $content-width-lg-px: $site-width-content;
+    $content-width-sm: "(max-width: #{$content-width-sm-px})";
+    $content-width-lg: "(min-width: #{$content-width-lg-px})";

@@ -1,0 +1,27 @@
+/**
+ * sass/variables/units/base.scss
+ * @package scgolfpanel
+ * @author Scott Shealy
+ * @version 1.0.0 (2024.05.10)
+ * @copyright 2024 (2024.05.10)
+**/
+
+// BASE UNIT SETTINGS
+    $unit-base: 1.00rem;
+    $margin-base: $unit-base;
+    $padding-base: $unit-base;
+
+// GLOBAL SIZE ADJUSTMENTS
+    $unit-adjustment-none: 0.00;
+    $unit-adjustment-xxs: 0.25;
+    $unit-adjustment-xs: 0.50;
+    $unit-adjustment-sm: 1.00;
+    $unit-adjustment-md: 1.50;
+    $unit-adjustment-lg: 2.00;
+    $unit-adjustment-xl: 2.50;
+    $unit-adjustment-xxl: 3.00;
+
+// @IMPORT | PARTIALS
+    @import "grids";
+    @import "margins";
+    @import "paddings";

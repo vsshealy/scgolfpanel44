@@ -1,0 +1,54 @@
+/**
+ * sass/theme/buttons/button-solid.scss
+ * @package scgolfpanel
+ * @author Scott Shealy
+ * @version 1.0.0 (2024.05.11)
+ * @copyright 2024 (2024.05.11)
+**/
+
+#{$button-solid} {
+    // GLOBAL
+        background-color: $button-solid-color;
+        border: $button-border-weight solid $button-solid-text-color;
+        color: $button-solid-text-color;
+
+        &:hover {
+            background-color: $button-solid-hover-color;
+            border: $button-border-weight solid $button-solid-hover-text-color;
+            color: $button-solid-hover-text-color;
+
+            .elementor-button-text {
+                color: $button-solid-hover-text-color;
+            } //.ELEMENTOR-BUTTON-TEXT
+        } //:HOVER
+
+    // MOBILE
+        @media #{$media-xs} {} //.COL-XS
+        @media #{$media-sm} {} //.COL-SM
+        @media #{$media-md} {} //.COL-MD
+        @media #{$device-mobile} {} //.MOBILE
+
+    // DESKTOP
+        @media #{$device-desktop} {} //.DESKTOP
+        @media #{$media-lg} {} //.COL-LG
+        @media #{$media-xl} {} //.COL-XL
+        @media #{$media-xxl} {} //.COL-XXL
+
+    .elementor-button-text {
+        // GLOBAL
+            color: $button-solid-text-color;
+            
+        // MOBILE
+            @media #{$media-xs} {} //.COL-XS
+            @media #{$media-sm} {} //.COL-SM
+            @media #{$media-md} {} //.COL-MD
+            @media #{$device-mobile} {} //.MOBILE
+
+        // DESKTOP
+            @media #{$device-desktop} {} //.DESKTOP
+            @media #{$media-lg} {} //.COL-LG
+            @media #{$media-xl} {} //.COL-XL
+            @media #{$media-xxl} {} //.COL-XXL
+    } //.ELEMENTOR-BUTTON-TEXT
+
+} //.BUTTON-SOLID

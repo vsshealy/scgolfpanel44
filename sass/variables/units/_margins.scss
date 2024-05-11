@@ -1,0 +1,17 @@
+/**
+ * sass/variables/units/margins.scss
+ * @package scgolfpanel
+ * @author Scott Shealy
+ * @version 1.0.0 (2024.05.10)
+ * @copyright 2024 (2024.05.10)
+**/
+
+// MARGINS
+    $margin-none: $margin-base * $unit-adjustment-none;
+    $margin-xxs: $margin-base * $unit-adjustment-xxs;
+    $margin-xs: $margin-base * $unit-adjustment-xs;
+    $margin-sm: $margin-base * $unit-adjustment-sm;
+    $margin-md: $margin-base * $unit-adjustment-md;
+    $margin-lg: $margin-base * $unit-adjustment-lg;
+    $margin-xl: $margin-base * $unit-adjustment-xl;
+    $margin-xxl: $margin-base * $unit-adjustment-xxl;

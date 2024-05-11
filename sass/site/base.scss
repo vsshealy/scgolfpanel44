@@ -1,0 +1,22 @@
+/**
+ * sass/site/base.scss
+ * @package scgolfpanel
+ * @author Scott Shealy
+ * @version 1.0.0 (2024.05.11)
+ * @copyright 2024 (2024.05.11)
+**/
+
+// GLOBAL
+    $body-background-color: $color-grayscale-light-12;
+
+// GUTTERS
+    $gutter-body: 1.00rem;
+    $gutter-columns: $gutter-body * 0.50;
+
+// @IMPORT | PARTIALS
+    @import "global";
+    @import "clearfix";
+    @import "devices";
+    @import "flexbox";
+    @import "grids";
+    @import "wrappers";
